@@ -85,7 +85,3 @@ for(let a = 1; a <= n - 1; a++){
   }
 }
 
-// function number(n){            
-
-// }
-// number(30)
