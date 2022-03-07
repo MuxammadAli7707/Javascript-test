@@ -75,13 +75,41 @@
 
 // Masala 8 Pifagor sonlar 
 
-let n = 30;
-for(let a = 1; a <= n; a++){
-  for(let b = a; b <= n; b++){
-    c = Math.sqrt(a * a + b * b);
-    if(c % 1 === 0){
-      console.log(a, b, c);
-    }
+// let n = 30;
+// for(let a = 1; a <= n; a++){
+//   for(let b = a; b <= n; b++){
+//     c = Math.sqrt(a * a + b * b);
+//     if(c % 1 === 0){
+//       console.log(a, b, c);
+//     }
+//   }
+// }
+
+// min va max sonlarni chiqarish
+
+function minMax(a, b, c, d){ 
+  let x = 0;
+  let y = 0;
+  if(a >= b && a >= c && a >= d){
+    x = a;
+  } else if(b >= a && b >= c && b >= d){
+    x = b;
+  } else if(c >= a && c >= b && c >= d){
+    x = c;
+  } else {
+    x = d;
   }
+  if(a <= b && a <= c && a <= d){
+    y = a;
+  } else if(b <= a && b <= c && b <= d){
+    y = b;
+  } else if(c <= a && c <= b && c <= d){
+    y = c;
+  } else {
+    y = d;
+  }
+
+  console.log(x, y);
 }
+minMax(10, 6, 20, 55)
 
