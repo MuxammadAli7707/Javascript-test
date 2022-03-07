@@ -76,7 +76,7 @@
 // Masala 8 Pifagor sonlar 
 
 let n = 30;
-for(let a = 1; a <= n - 1; a++){
+for(let a = 1; a <= n; a++){
   for(let b = a; b <= n; b++){
     c = Math.sqrt(a * a + b * b);
     if(c % 1 === 0){
