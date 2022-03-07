@@ -75,26 +75,17 @@
 
 // Masala 8 Pifagor sonlar 
 
-// function number(n){            
-//   for(let a = 1; a < n - 1; a++){
-//     for(let b = a; b < n; b++){
-//       c = Math.sqrt(a * a + b * b);
-//       if(c % 1 === 0){
-//         console.log(c);
-//       }
-//     }
-//   }
-// }
-// number(24)
+let n = 30;
+for(let a = 1; a <= n - 1; a++){
+  for(let b = a; b <= n; b++){
+    c = Math.sqrt(a * a + b * b);
+    if(c % 1 === 0){
+      console.log(a, b, c);
+    }
+  }
+}
 
-// function pythagore(a, b, hypoth) {
-//   let result;
-//   let ab = [a, b];
-//   if(hypoth === null) {
-//       return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-//   } else if (a === null || b === null) {
-//       ab = ab[0] || ab[1];
-//       return Math.sqrt(Math.pow(hypoth, 2) - Math.pow(ab, 2));
-//   }
+// function number(n){            
+
 // }
-// console.log(pythagore(5, null, 13))
+// number(30)
